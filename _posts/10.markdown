@@ -3,7 +3,6 @@ title: Стол за 10$
 subtitle:
 layout: default
 modal-id: 1
-date: 2015-02-15
 img: 10.jpg
 thumbnail: 10.jpg
 alt: Стол за 10$
