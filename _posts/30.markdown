@@ -2,7 +2,7 @@
 title: Стол за 30$
 subtitle:
 layout: default
-modal-id: 1
+modal-id: 2
 img: 30.jpg
 thumbnail: 30.jpg
 alt: Стол за 30$
