@@ -1,12 +1,6 @@
 <!-- Team Section -->
-    <section id="team" class="bg-light-gray">
+    <section id="team">
         <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Our Amazing Team</h2>
-                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
-                </div>
-            </div>
             <div class="row">
                 {% for member in site.people %}
                 <div class="col-sm-4 col-sm-offset-4">
@@ -14,6 +8,7 @@
                         <img src="img/team/{{ member.pic }}.jpg" class="img-responsive img-circle" alt="">
                         <h4>{{ member.name }}</h4>
                         <p class="text-muted">{{ member.position }}</p>
+                        <p class="text-muted">Чтобы занять место или узнать подробнее, просто напишите мне.</p>
                         <ul class="list-inline social-buttons">
                             {% for network in member.social %}
                             <li><a href="{{ network.url }}"><i class="fa fa-{{ network.title }}"></i></a>
@@ -26,11 +21,14 @@
             </div>
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <p class="large text-muted">Чтобы занять место или узнать подробнее, просто напишите мне </p>
+                    <p class="large text-muted">А если вам уже не терпится</p>
+                    <p class="large text-muted">ЖМИ</p>
                 </div>
             </div>
             <div class="row text-center">
-                <a href="http://getwin.nl/?inv=545" class="btn btn-primary"> Регистрация</a>
+                <a href="http://getwin.nl/?inv=545" class="btn btn-primary">
+                    <i class="fa fa-money"></i> Начать зарабатывать
+                </a>
             </div>
         </div>
     </section>
