@@ -1,15 +1,14 @@
 ---
-title: Escape
-subtitle: Website Design
+title: Стол за 30$
+subtitle:
 layout: default
 modal-id: 2
-date: 2014-07-17
-img: escape.png
-thumbnail: escape-thumbnail.png
-alt: image-alt
-project-date: April 2014
-client: Start Bootstrap
-category: Web Development
-description: Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis. At duo novum diceret. Tantas apeirian vix et, usu sanctus postulant inciderint ut, populo diceret necessitatibus in vim. Cu eum dicam feugiat noluisse.
+img: 30.jpg
+thumbnail: 30.jpg
+alt: Стол за 30$
+refer: Расчет реферального бонуса для стола за 30$
+refer_text: 0,3$*8+0,6$*16+0,9$*32+1,2$*64+1,5*128=309,6$
+all: Общий доход
+all_text: 90$+309,6=399,6$
 
 ---
