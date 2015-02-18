@@ -3,8 +3,8 @@ baseurl: http://www.vaquumproject.ru
 
 # Site settings
 title: GetWin VaquumProject
-email: your-email@domain.com
-description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
+email: ivanovvasiliy93@mail.ru
+description: "GetWin - это принципиально новый взгляд на матричные проекты! Революционная реферальная система в сочетании с щедрыми бонусами позволит Вам, вложив 10$, получить более 50.000$!"
 
 # Color settings (hex-codes without the leading hash-tag)
 color:
