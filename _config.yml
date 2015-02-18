@@ -1,5 +1,5 @@
-url: http://www.vaquumproject.ru/
-baseurl:
+url:
+baseurl: http://www.vaquumproject.ru
 
 # Site settings
 title: GetWin VaquumProject
@@ -16,7 +16,7 @@ color:
 people:
   - name: Иванов Василий
   pic: I
-  position: Спонсор
+  position: Ваш спонсор
   social:
     - title: vk
       url: https://vk.com/internationalcompany
