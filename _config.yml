@@ -12,11 +12,11 @@ color:
 # Team names, titles and social links
 people:
   - name: Иванов Василий
-  pic: I
-  position: Ваш спонсор
-  social:
-    - title: vk
-      url: https://vk.com/internationalcompany
+    pic: I
+    position: Ваш спонсор
+    social:
+      - title: vk
+        url: https://vk.com/internationalcompany
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
