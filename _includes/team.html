@@ -9,11 +9,15 @@
                         <h4>{{ member.name }}</h4>
                         <p class="text-muted">{{ member.position }}</p>
                         <p class="text-muted">Чтобы занять место или узнать подробнее, просто напишите мне.</p>
-                        <ul class="list-inline social-buttons">
-                            {% for network in member.social %}
-                            <li><a href="{{ network.url }}"><i class="fa fa-{{ network.title }}"></i></a>
-                            {% endfor %}
-                        </ul>
+
+                        <div class="col-sm-6">
+                            <ul class="list-inline social-buttons">
+                                {% for network in member.social %}
+                                <li><a href="{{ network.url }}"><i class="fa fa-{{ network.title }}"></i></a>
+                                    {% endfor %}
+                            </ul>
+                        </div>
+                        <div class="col-sm-6" id="vk_like"></div>
                     </div>
                 </div>
                 {% endfor %}
@@ -30,7 +34,7 @@
                 </a>
             </div>
             <div class="row">
-                <div class="col-sm-offset-5" id="vk_like"></div>
+
             </div>
             <div class="row" style="padding-top: 5%;">
                 <div class="col-sm-8 col-sm-offset-2">
